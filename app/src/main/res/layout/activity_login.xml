@@ -11,7 +11,8 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/signin_layout"
         android:layout_alignParentTop="true"
-        android:src="@drawable/logo_title"></ImageView>
+        android:src="@drawable/logo_title"
+        android:contentDescription="TODO"></ImageView>
 
     <LinearLayout
         android:id="@+id/signin_layout"
