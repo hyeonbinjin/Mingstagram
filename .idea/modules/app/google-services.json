@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "963212602620",
+    "firebase_url": "https://mingstagram-9c5ba.firebaseio.com",
+    "project_id": "mingstagram-9c5ba",
+    "storage_bucket": "mingstagram-9c5ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963212602620:android:e27f614462c1480bcfbb79",
+        "android_client_info": {
+          "package_name": "com.example.mingstagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963212602620-1njdprd2upb3q6a2640c0hiadaai0epv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mingstagram",
+            "certificate_hash": "48d3876938e1e00dd023ac8f884032b0324538cc"
+          }
+        },
+        {
+          "client_id": "963212602620-be7ea5n3bkmklu1ie6d0ffo01e2higfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJXGksDFG-6WIGrXyVXUz-n-20TDGoJu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963212602620-be7ea5n3bkmklu1ie6d0ffo01e2higfu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
