@@ -1,12 +1,11 @@
-package com.example.mingstagram
+package com.example.mingstagram.navigation
 
 import android.app.Activity
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
-import bolts.Task
+import com.example.mingstagram.R
 import com.example.mingstagram.navigation.model.ContentDTO
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore

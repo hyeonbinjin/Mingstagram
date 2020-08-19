@@ -7,13 +7,9 @@ import android.os.Bundle
 import android.view.MenuItem
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import com.example.mingstagram.navigation.AlarmFragment
-import com.example.mingstagram.navigation.DetailViewFragment
-import com.example.mingstagram.navigation.GridFragment
-import com.example.mingstagram.navigation.UserFragment
+import com.example.mingstagram.navigation.*
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.activity_main.*
-import java.util.jar.Manifest
 
 
 class MainActivity : AppCompatActivity(),BottomNavigationView.OnNavigationItemSelectedListener {
@@ -42,7 +38,8 @@ class MainActivity : AppCompatActivity(),BottomNavigationView.OnNavigationItemSe
             }
             R.id.action_add_photo->{
                 if(ContextCompat.checkSelfPermission(this,android.Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED){
-                    startActivity(Intent(this,AddPhotoActivity::class.java))
+                    startActivity(Intent(this,
+                        AddPhotoActivity::class.java))
                 }
                 return true
             }
