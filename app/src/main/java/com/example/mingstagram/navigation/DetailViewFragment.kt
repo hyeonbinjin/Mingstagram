@@ -142,7 +142,8 @@ class DetailViewFragment : Fragment() {
         fun favoriteAlarm(detinationUid:String){
             var alarmDTO = AlarmDTO()
             alarmDTO.destinationUid = detinationUid
-            alarmDTO.userId = FirebaseAuth.getInstance().currentUser?.uid
+            alarmDTO.userId = FirebaseAuth.getInstance().currentUser?.email
+            alarmDTO.uid = FirebaseAuth.getInstance().currentUser?.uid
             alarmDTO.kind = 0
             alarmDTO.timestamp = System.currentTimeMillis()
             FirebaseFirestore.getInstance().collection("alarms").document().set(alarmDTO)

@@ -5,6 +5,10 @@ data class AlarmDTO(
     var userId: String? = null,
     var uid : String? = null,
     var kind : Int? = null,
+
+    // 0 : Like
+    // 1 : Comment
+    // 2 : Follow
     var message : String?= null,
     var timestamp : Long?=null,
 )
